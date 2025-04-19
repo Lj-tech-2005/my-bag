@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+
+    .top-left img {
+
+        top: -100px;
+        left: 0px;
+        height: 400px;
+    }
+
+    .top-right h1 {
+
+        font-weight: 900;
+        line-height: 1;
+        font-size: 20px;
+
+    }
+
+
+}
+
+@media only screen and (min-width:0px) and (max-width:476px) {
+
+    .top-left img {
+
+        top: -50px;
+        left: 0px;
+        height: 250px;
+    }
+
+
+    .top-sec {
+
+        height: 200px;
+        margin-top:200px;
+    }
+
+    .top-right {
+      
+        height: 100%;
+        font-family: "Josefin Slab", serif;
+        margin-top: 0px;
+
+    }
+
+    .top-right h1 {
+
+        font-weight: 900;
+        line-height: 1;
+        font-size:15px;
+
+    }
+    /* .top-right :nth-child(2){
+
+        gap: 0px;
+    } */
+}
